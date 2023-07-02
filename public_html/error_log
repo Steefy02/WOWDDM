@@ -1,0 +1,1 @@
+[27-Mar-2023 03:31:03 Europe/Bucharest] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.28. in /home/r108033wowd/piu_piu_mac/vendor/composer/platform_check.php on line 24

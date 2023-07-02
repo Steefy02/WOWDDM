@@ -1,0 +1,119 @@
+.dri-background {
+    background-color: rgb(17, 10, 41)!important;
+    color: white!important;
+    border: 0px!important;
+}
+
+.dri-color {
+    color: rgb(17, 10, 41)!important;
+}
+
+.dri-categories {
+    background-color: #f2f5ff!important;
+}
+
+.btn {
+    border-radius: 13px;
+    border: 0px!important;
+}
+
+.selPrice {
+    cursor: pointer!important;
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion-checkout {
+    background-color: white;
+    border-radius:15px;
+    border: solid 1px #EDF1FF !important;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .accordion-launch {
+    background-color: white;
+    border-radius:15px;
+    border: solid 1px #EDF1FF !important;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .accordion-single {
+    background-color: white;
+    border-radius:15px;
+    border: solid 1px #EDF1FF !important;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .accordion-wrapper {
+    margin-bottom: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active-checkout, .accordion-checkout:hover, .accordion-single:hover, .active-single {
+    background-color: #ccc;
+    border: solid 1px #110a29!important;
+  }
+
+  .accordion-checkout:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active-checkout:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+@media (max-width: 480px) { 
+    .dri-posts {
+        padding: 25px!important;
+    }
+ }
+
+ @media(max-width: 992px) {
+    .dri-categories {
+        position: absolute;
+        width: 100%;
+        z-index: 99999;
+        left: 0px;
+    }
+
+    .dri-cat-btn {
+        margin-bottom: 20px;
+    }
+
+    .dri-utility {
+        margin-top: 15px;
+    }
+ }

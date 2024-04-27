@@ -1,2 +1,2 @@
-# WOWDDM
+# wowDDM
 E-commerce platform
